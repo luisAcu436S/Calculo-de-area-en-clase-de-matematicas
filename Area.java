@@ -34,7 +34,13 @@ public class Area {
                 break;
             case 3:
                 // Codigo para calcular el area del triangulo
-
+            //para calcular el area del triangulo necesitamos la base y la altura
+            System.out.print("Ingresa la base del triangulo: ");
+            double base = scanner.nextDouble();
+            System.out.print("Ingresa la altura del triangulo: ");
+            double altura = scanner.nextDouble();
+            double areaTriangulo = (base * altura) / 2;
+            System.out.println("El area del triangulo es: " + areaTriangulo);
                 break;
             case 4:
                 // Codigo para calcular el area del circulo
