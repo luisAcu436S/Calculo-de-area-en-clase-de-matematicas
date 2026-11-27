@@ -17,7 +17,10 @@ public class Area {
         switch (opcion) {
             case 1:
                 // Codigo para calcular el area del cuadrado
-
+                System.out.print("Para calcular el area del cuadrado, ingresa el lado: ");
+                double lado = scanner.nextDouble();
+                double areaCuadrado = lado * lado;
+                System.out.println("El area del cuadrado es: " + areaCuadrado);
                 break;
             case 2:
                 // Codigo para calcular el area del rectangulo
