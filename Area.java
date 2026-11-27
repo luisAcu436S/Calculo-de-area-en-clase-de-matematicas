@@ -21,6 +21,12 @@ public class Area {
                 break;
             case 2:
                 // Codigo para calcular el area del rectangulo
+                System.out.print("Para calcular el area del rectangulo, ingresa la base: ");
+                double base = scanner.nextDouble();
+                System.out.print("Para calcular el area del rectangulo, ingresa la altura: ");
+                double altura = scanner.nextDouble();
+                double areaRectangulo = base * altura;
+                System.out.println("El area del rectangulo es: " + areaRectangulo);
 
                 break;
             case 3:
