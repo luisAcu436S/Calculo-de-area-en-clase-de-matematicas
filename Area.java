@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Area {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        double base, altura;
         System.out.println("Hola vienvenido al programa de calculo de areas");
 
         System.out.println("Puedes calcular el area de estas figuras geometricas: ");
@@ -25,22 +27,22 @@ public class Area {
             case 2:
                 // Codigo para calcular el area del rectangulo
                 System.out.print("Para calcular el area del rectangulo, ingresa la base: ");
-                double base = scanner.nextDouble();
+                base = scanner.nextDouble();
                 System.out.print("Para calcular el area del rectangulo, ingresa la altura: ");
-                double altura = scanner.nextDouble();
+                altura = scanner.nextDouble();
                 double areaRectangulo = base * altura;
                 System.out.println("El area del rectangulo es: " + areaRectangulo);
 
                 break;
             case 3:
                 // Codigo para calcular el area del triangulo
-            //para calcular el area del triangulo necesitamos la base y la altura
-            System.out.print("Ingresa la base del triangulo: ");
-            double base = scanner.nextDouble();
-            System.out.print("Ingresa la altura del triangulo: ");
-            double altura = scanner.nextDouble();
-            double areaTriangulo = (base * altura) / 2;
-            System.out.println("El area del triangulo es: " + areaTriangulo);
+                // para calcular el area del triangulo necesitamos la base y la altura
+                System.out.print("Ingresa la base del triangulo: ");
+                base = scanner.nextDouble();
+                System.out.print("Ingresa la altura del triangulo: ");
+                altura = scanner.nextDouble();
+                double areaTriangulo = (base * altura) / 2;
+                System.out.println("El area del triangulo es: " + areaTriangulo);
                 break;
             case 4:
                 // Codigo para calcular el area del circulo
